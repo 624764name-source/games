@@ -1,0 +1,52 @@
+{
+ "menu": {
+  "start": 0.5,
+  "end": 86.27,
+  "src": "menu_s7"
+ },
+ "game": {
+  "start": 0.5,
+  "end": 87.16,
+  "src": "game_s33"
+ },
+ "quads": {
+  "start": 0.5,
+  "end": 87.21,
+  "src": "quads_s7"
+ },
+ "calm_guitar": {
+  "start": 0.5,
+  "end": 86.71,
+  "src": "calm_guitar_s33"
+ },
+ "calm_harp": {
+  "start": 0.5,
+  "end": 89.64,
+  "src": "calm_harp_s33"
+ },
+ "calm_piano": {
+  "start": 0.5,
+  "end": 87.5,
+  "src": "calm_piano_s33"
+ },
+ "calm_waltz": {
+  "start": 0.5,
+  "end": 85.51,
+  "src": "calm_waltz_s33"
+ },
+ "rock_ballad": {
+  "start": 0.5,
+  "end": 87.87,
+  "src": "rock_ballad_s7"
+ },
+ "rock_forest": {
+  "start": 0.5,
+  "end": 88.2,
+  "src": "rock_forest_s7"
+ },
+ "rock_tavern": {
+  "start": 0.5,
+  "end": 90.08,
+  "src": "rock_tavern_s21"
+ }
+}

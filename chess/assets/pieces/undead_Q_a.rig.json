@@ -1,0 +1,44 @@
+{
+ "id": "undead_Q_a",
+ "side": "a",
+ "scale": 0.46627,
+ "baseA": 104.55,
+ "baseB": 22.88,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -104.88,
+   "oy": -39.86,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "undead_Q_a_base",
+   "team": "undead_Q_a_base_t"
+  },
+  "body": {
+   "ox": -95.94,
+   "oy": -300.66,
+   "px": 0.0,
+   "py": -18.93,
+   "frame": "undead_Q_a_body",
+   "team": "undead_Q_a_body_t"
+  },
+  "arm": {
+   "ox": 25.35,
+   "oy": -291.38,
+   "px": 30.65,
+   "py": -188.49,
+   "frame": "undead_Q_a_arm",
+   "team": "undead_Q_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  77.71,
+  -290.72
+ ],
+ "blade": [
+  75.06,
+  -261.92
+ ],
+ "atlas": "undead_a"
+}

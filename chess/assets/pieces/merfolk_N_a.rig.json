@@ -1,0 +1,51 @@
+{
+ "id": "merfolk_N_a",
+ "side": "a",
+ "scale": 0.42858,
+ "baseA": 138.54,
+ "baseB": 25.48,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -138.87,
+   "oy": -54.22,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "merfolk_N_a_base",
+   "team": "merfolk_N_a_base_t"
+  },
+  "body": {
+   "ox": -114.69,
+   "oy": -266.93,
+   "px": 0.0,
+   "py": -30.93,
+   "frame": "merfolk_N_a_body",
+   "team": "merfolk_N_a_body_t"
+  },
+  "head": {
+   "ox": 62.41,
+   "oy": -137.21,
+   "px": 68.29,
+   "py": -109.44,
+   "frame": "merfolk_N_a_head"
+  },
+  "arm": {
+   "ox": 21.24,
+   "oy": -280.33,
+   "px": 26.14,
+   "py": -190.96,
+   "frame": "merfolk_N_a_arm",
+   "team": "merfolk_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  74.33,
+  -279.67
+ ],
+ "blade": [
+  70.25,
+  -264.33
+ ],
+ "atlas": "merfolk_a"
+}

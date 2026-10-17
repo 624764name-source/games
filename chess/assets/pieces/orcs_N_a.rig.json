@@ -1,0 +1,50 @@
+{
+ "id": "orcs_N_a",
+ "side": "a",
+ "scale": 0.35866,
+ "baseA": 135.92,
+ "baseB": 20.19,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -136.24,
+   "oy": -47.31,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "orcs_N_a_base",
+   "team": "orcs_N_a_base_t"
+  },
+  "body": {
+   "ox": -121.92,
+   "oy": -234.48,
+   "px": 0.0,
+   "py": -28.78,
+   "frame": "orcs_N_a_body",
+   "team": "orcs_N_a_body_t"
+  },
+  "head": {
+   "ox": 54.75,
+   "oy": -157.45,
+   "px": 60.48,
+   "py": -113.2,
+   "frame": "orcs_N_a_head"
+  },
+  "arm": {
+   "ox": -8.28,
+   "oy": -276.18,
+   "px": 0.32,
+   "py": -193.1,
+   "frame": "orcs_N_a_arm"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  42.97,
+  -275.54
+ ],
+ "blade": [
+  41.38,
+  -262.41
+ ],
+ "atlas": "orcs_a"
+}

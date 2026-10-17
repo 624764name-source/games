@@ -1,0 +1,44 @@
+{
+ "id": "humans_P_a",
+ "side": "a",
+ "scale": 0.37946,
+ "baseA": 118.07,
+ "baseB": 24.0,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -118.39,
+   "oy": -37.4,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "humans_P_a_base",
+   "team": "humans_P_a_base_t"
+  },
+  "body": {
+   "ox": -117.74,
+   "oy": -213.69,
+   "px": 0.0,
+   "py": -15.41,
+   "frame": "humans_P_a_body",
+   "team": "humans_P_a_body_t"
+  },
+  "arm": {
+   "ox": -92.51,
+   "oy": -280.65,
+   "px": -44.32,
+   "py": -148.99,
+   "frame": "humans_P_a_arm",
+   "team": "humans_P_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  -68.09,
+  -280.0
+ ],
+ "blade": [
+  -69.06,
+  -264.31
+ ],
+ "atlas": "humans_a"
+}

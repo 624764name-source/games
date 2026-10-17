@@ -1,0 +1,28 @@
+{
+ "id": "undead_R_a",
+ "side": "a",
+ "scale": 0.33716,
+ "baseA": 144.59,
+ "baseB": 26.12,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -144.93,
+   "oy": -47.13,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "undead_R_a_base",
+   "team": "undead_R_a_base_t"
+  },
+  "body": {
+   "ox": -135.09,
+   "oy": -300.68,
+   "px": 0.0,
+   "py": -23.06,
+   "frame": "undead_R_a_body",
+   "team": "undead_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "undead_a"
+}

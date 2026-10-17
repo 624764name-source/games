@@ -1,0 +1,28 @@
+{
+ "id": "humans_R_a",
+ "side": "a",
+ "scale": 0.40824,
+ "baseA": 140.85,
+ "baseB": 21.45,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -141.18,
+   "oy": -51.58,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "humans_R_a_base",
+   "team": "humans_R_a_base_t"
+  },
+  "body": {
+   "ox": -141.85,
+   "oy": -280.67,
+   "px": 0.0,
+   "py": -32.09,
+   "frame": "humans_R_a_body",
+   "team": "humans_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "humans_a"
+}

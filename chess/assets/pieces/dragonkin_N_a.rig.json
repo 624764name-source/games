@@ -1,0 +1,52 @@
+{
+ "id": "dragonkin_N_a",
+ "side": "a",
+ "scale": 0.46902,
+ "baseA": 109.27,
+ "baseB": 21.7,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -109.58,
+   "oy": -41.9,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "dragonkin_N_a_base",
+   "team": "dragonkin_N_a_base_t"
+  },
+  "body": {
+   "ox": -103.06,
+   "oy": -263.24,
+   "px": 0.0,
+   "py": -22.2,
+   "frame": "dragonkin_N_a_body",
+   "team": "dragonkin_N_a_body_t"
+  },
+  "head": {
+   "ox": 66.74,
+   "oy": -158.62,
+   "px": 72.33,
+   "py": -110.82,
+   "frame": "dragonkin_N_a_head",
+   "team": "dragonkin_N_a_head_t"
+  },
+  "arm": {
+   "ox": -66.12,
+   "oy": -280.31,
+   "px": -30.11,
+   "py": -202.39,
+   "frame": "dragonkin_N_a_arm",
+   "team": "dragonkin_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  -65.5,
+  -280.0
+ ],
+ "blade": [
+  -61.27,
+  -264.09
+ ],
+ "atlas": "dragonkin_a"
+}

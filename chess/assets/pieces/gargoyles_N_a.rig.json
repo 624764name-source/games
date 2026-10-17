@@ -1,0 +1,51 @@
+{
+ "id": "gargoyles_N_a",
+ "side": "a",
+ "scale": 0.42641,
+ "baseA": 114.33,
+ "baseB": 27.01,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -114.66,
+   "oy": -41.89,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "gargoyles_N_a_base",
+   "team": "gargoyles_N_a_base_t"
+  },
+  "body": {
+   "ox": -108.97,
+   "oy": -248.11,
+   "px": 0.0,
+   "py": -17.37,
+   "frame": "gargoyles_N_a_body",
+   "team": "gargoyles_N_a_body_t"
+  },
+  "head": {
+   "ox": 28.96,
+   "oy": -211.28,
+   "px": 42.68,
+   "py": -151.7,
+   "frame": "gargoyles_N_a_head"
+  },
+  "arm": {
+   "ox": -71.47,
+   "oy": -302.68,
+   "px": -23.94,
+   "py": -206.26,
+   "frame": "gargoyles_N_a_arm",
+   "team": "gargoyles_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  -70.64,
+  -302.01
+ ],
+ "blade": [
+  -65.57,
+  -280.36
+ ],
+ "atlas": "gargoyles_a"
+}

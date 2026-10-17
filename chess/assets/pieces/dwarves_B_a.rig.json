@@ -1,0 +1,44 @@
+{
+ "id": "dwarves_B_a",
+ "side": "a",
+ "scale": 0.39583,
+ "baseA": 106.93,
+ "baseB": 19.93,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -107.27,
+   "oy": -42.62,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "dwarves_B_a_base",
+   "team": "dwarves_B_a_base_t"
+  },
+  "body": {
+   "ox": -92.43,
+   "oy": -232.2,
+   "px": 0.0,
+   "py": -24.18,
+   "frame": "dwarves_B_a_body",
+   "team": "dwarves_B_a_body_t"
+  },
+  "arm": {
+   "ox": 39.47,
+   "oy": -300.34,
+   "px": 43.85,
+   "py": -167.77,
+   "frame": "dwarves_B_a_arm",
+   "team": "dwarves_B_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  107.94,
+  -299.66
+ ],
+ "blade": [
+  105.1,
+  -270.28
+ ],
+ "atlas": "dwarves_a"
+}

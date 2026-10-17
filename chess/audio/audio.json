@@ -1,0 +1,54 @@
+{
+ "music": {
+  "menu": {
+   "file": "menu",
+   "loopStart": 0.5,
+   "loopEnd": 45.9468,
+   "loopLength": 45.4468,
+   "bars": 16,
+   "bpm": 84.55,
+   "crossfade": 0.71,
+   "lufs": -18.0,
+   "key": "D major",
+   "seed": "57"
+  },
+  "match": {
+   "file": "match",
+   "loopStart": 0.5,
+   "loopEnd": 53.8002,
+   "loopLength": 53.3002,
+   "bars": 16,
+   "bpm": 72.04,
+   "crossfade": 0.833,
+   "lufs": -18.0,
+   "key": "D minor",
+   "seed": "11"
+  }
+ },
+ "stings": {
+  "victory": {
+   "file": "victory",
+   "dur": 4.015,
+   "lufs": -16.0,
+   "lufsStereo": -13.0,
+   "chord": "D maj",
+   "seed": "11"
+  },
+  "defeat": {
+   "file": "defeat",
+   "dur": 4.495,
+   "lufs": -16.0,
+   "lufsStereo": -13.0,
+   "chord": "D min",
+   "seed": "21"
+  }
+ },
+ "version": 2,
+ "sfx": {
+  "shield": {
+   "file": "sfx_shield",
+   "dur": 0.396,
+   "note": "мягкий «блок/тук»; искра — синтез в игре"
+  }
+ }
+}

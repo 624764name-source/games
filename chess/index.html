@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" href="data:," />
+    <title>Шахматы: Орки и эльфы</title>
+    <style>html,body{touch-action:none;background:#f2fbf7;height:100%;margin:0;overflow:hidden}#boot-loading{color:#f2c14e;pointer-events:none;background:#020303;flex-direction:column;justify-content:center;align-items:center;gap:22px;font:700 24px -apple-system,Segoe UI,Roboto,Arial,sans-serif;display:none;position:fixed;inset:0}#boot-loading.on{display:flex}#boot-loading b{font-weight:700;animation:1.4s ease-in-out infinite alternate bt}#boot-loading i{background:#3a4a50;border-radius:7px;width:min(70vw,300px);height:13px;display:block;position:relative;overflow:hidden;box-shadow:0 0 0 3px #0d0a06cc}#boot-loading i:after{content:"";background:#f2c14e;border-radius:7px;width:28%;height:100%;animation:1.4s ease-in-out infinite alternate bl;position:absolute;top:0;left:0}@keyframes bl{0%{left:0}to{left:72%}}@keyframes bt{0%{opacity:1}to{opacity:.55}}#splash-wait{z-index:2147483647;pointer-events:none;opacity:0;background:#2fc79b38;border-radius:2px;width:min(38vw,150px);height:3px;margin-left:calc(min(38vw,150px)/-2);transition:opacity .4s;position:fixed;bottom:9vh;left:50%;overflow:hidden}#splash-wait.on{opacity:1}#splash-wait:after{content:"";background:#2fc79b;border-radius:2px;width:34%;height:100%;animation:1.3s ease-in-out infinite alternate sw;position:absolute;top:0;left:0}@keyframes sw{0%{left:0}to{left:66%}}@media (prefers-reduced-motion:reduce){#splash-wait:after{opacity:.7;width:100%;animation:none}}</style>
+    <script type="module" crossorigin src="./assets/index-ClWGBrf1.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rules-bmh1DKKB.js">
+    <link rel="modulepreload" crossorigin href="./assets/rng-DwAUeeIW.js">
+  </head>
+  <body>
+    <!-- Заставка студии IniKo (_brand/splash): скрипт и показ — ДО синхронного /sdk.js (на медленной сети SDK не задерживает заставку); уходит, когда прошли 2,2 с и игра готова (gameReady) -->
+    <script src="iniko-splash.js"></script>
+    <div id="splash-wait"></div> <!-- тонкая полоса «грузится» над заставкой: только если через 2,2 с игра не готова; убирается на gameReady -->
+    <script>(function(){
+window.__gameReady=new Promise(function(r){window.__resolveGameReady=r});
+window.__splashGone=new Promise(function(r){window.__resolveSplashGone=r}); // GameplayAPI.start ждёт ухода заставки (yandex.ts)
+var sw=document.getElementById('splash-wait'),ready=false;
+window.__gameReady.then(function(){ready=true;sw&&sw.parentNode&&sw.parentNode.removeChild(sw)});
+setTimeout(function(){if(!ready&&sw)sw.classList.add('on')},2200);
+function gone(){document.documentElement.style.background=document.body.style.background='#1d2a2e';var e=document.getElementById('boot-loading');e&&e.classList.add('on');window.__resolveSplashGone()}
+try{if(window.IniKoSplash)IniKoSplash.show({line:'creative',until:window.__gameReady,onDone:gone});else document.addEventListener('DOMContentLoaded',gone)}catch(e){document.addEventListener('DOMContentLoaded',gone)}
+})();</script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+    <div id="game"></div>
+    <div id="boot-loading"><b>Загрузка…</b><i></i></div> <!-- запас: показывается только если заставка студии ушла, а игра ещё не готова (или заставки нет); BootScene убирает -->
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+ "id": "firekin_R_a",
+ "side": "a",
+ "scale": 0.44643,
+ "baseA": 103.43,
+ "baseB": 18.25,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -103.74,
+   "oy": -41.89,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "firekin_R_a_base",
+   "team": "firekin_R_a_base_t"
+  },
+  "body": {
+   "ox": -108.12,
+   "oy": -280.62,
+   "px": 0.0,
+   "py": -25.2,
+   "frame": "firekin_R_a_body",
+   "team": "firekin_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "fx": "embers",
+ "atlas": "firekin_a"
+}

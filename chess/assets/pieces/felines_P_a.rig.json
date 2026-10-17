@@ -1,0 +1,44 @@
+{
+ "id": "felines_P_a",
+ "side": "a",
+ "scale": 0.42411,
+ "baseA": 101.31,
+ "baseB": 18.68,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -102.24,
+   "oy": -41.5,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "felines_P_a_base",
+   "team": "felines_P_a_base_t"
+  },
+  "body": {
+   "ox": -93.88,
+   "oy": -266.7,
+   "px": 0.0,
+   "py": -24.44,
+   "frame": "felines_P_a_body",
+   "team": "felines_P_a_body_t"
+  },
+  "arm": {
+   "ox": -82.13,
+   "oy": -280.31,
+   "px": -28.46,
+   "py": -183.95,
+   "frame": "felines_P_a_arm",
+   "team": "felines_P_a_arm_t"
+  }
+ },
+ "strike": "stab",
+ "tip": [
+  -60.48,
+  -279.69
+ ],
+ "blade": [
+  -61.87,
+  -268.22
+ ],
+ "atlas": "felines_a"
+}

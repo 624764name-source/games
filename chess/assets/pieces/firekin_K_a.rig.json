@@ -1,0 +1,45 @@
+{
+ "id": "firekin_K_a",
+ "side": "a",
+ "scale": 0.47414,
+ "baseA": 113.36,
+ "baseB": 28.4,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -113.71,
+   "oy": -33.83,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "firekin_K_a_base",
+   "team": "firekin_K_a_base_t"
+  },
+  "body": {
+   "ox": -139.77,
+   "oy": -300.69,
+   "px": 0.0,
+   "py": -7.77,
+   "frame": "firekin_K_a_body",
+   "team": "firekin_K_a_body_t"
+  },
+  "arm": {
+   "ox": 35.84,
+   "oy": -284.56,
+   "px": 48.19,
+   "py": -166.91,
+   "frame": "firekin_K_a_arm",
+   "team": "firekin_K_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "fx": "embers",
+ "tip": [
+  94.5,
+  -284.22
+ ],
+ "blade": [
+  93.68,
+  -263.09
+ ],
+ "atlas": "firekin_a"
+}

@@ -1,0 +1,314 @@
+{
+ "humans": {
+  "B": [
+   "humans_B_a",
+   "humans_B_a"
+  ],
+  "K": [
+   "humans_K_a",
+   "humans_K_a"
+  ],
+  "N": [
+   "humans_N_a",
+   "humans_N_a"
+  ],
+  "P": [
+   "humans_P_a",
+   "humans_P_a"
+  ],
+  "Q": [
+   "humans_Q_a",
+   "humans_Q_a"
+  ],
+  "R": [
+   "humans_R_a",
+   "humans_R_a"
+  ]
+ },
+ "orcs": {
+  "K": [
+   "orcs_K_a",
+   "orcs_K_a"
+  ],
+  "P": [
+   "orcs_P_a",
+   "orcs_P_a"
+  ],
+  "N": [
+   "orcs_N_a",
+   "orcs_N_a"
+  ],
+  "B": [
+   "orcs_B_a",
+   "orcs_B_a"
+  ],
+  "Q": [
+   "orcs_Q_a",
+   "orcs_Q_a"
+  ],
+  "R": [
+   "orcs_R_a",
+   "orcs_R_a"
+  ]
+ },
+ "undead": {
+  "B": [
+   "undead_B_a",
+   "undead_B_a"
+  ],
+  "K": [
+   "undead_K_a",
+   "undead_K_a"
+  ],
+  "N": [
+   "undead_N_a",
+   "undead_N_a"
+  ],
+  "P": [
+   "undead_P_a",
+   "undead_P_a"
+  ],
+  "Q": [
+   "undead_Q_a",
+   "undead_Q_a"
+  ],
+  "R": [
+   "undead_R_a",
+   "undead_R_a"
+  ]
+ },
+ "gargoyles": {
+  "B": [
+   "gargoyles_B_a",
+   "gargoyles_B_a"
+  ],
+  "K": [
+   "gargoyles_K_a",
+   "gargoyles_K_a"
+  ],
+  "N": [
+   "gargoyles_N_a",
+   "gargoyles_N_a"
+  ],
+  "P": [
+   "gargoyles_P_a",
+   "gargoyles_P_a"
+  ],
+  "Q": [
+   "gargoyles_Q_a",
+   "gargoyles_Q_a"
+  ],
+  "R": [
+   "gargoyles_R_a",
+   "gargoyles_R_a"
+  ]
+ },
+ "elves": {
+  "B": [
+   "elves_B_a",
+   "elves_B_a"
+  ],
+  "K": [
+   "elves_K_a",
+   "elves_K_a"
+  ],
+  "N": [
+   "elves_N_a",
+   "elves_N_a"
+  ],
+  "P": [
+   "elves_P_a",
+   "elves_P_a"
+  ],
+  "Q": [
+   "elves_Q_a",
+   "elves_Q_a"
+  ],
+  "R": [
+   "elves_R_a",
+   "elves_R_a"
+  ]
+ },
+ "dwarves": {
+  "B": [
+   "dwarves_B_a",
+   "dwarves_B_a"
+  ],
+  "K": [
+   "dwarves_K_a",
+   "dwarves_K_a"
+  ],
+  "N": [
+   "dwarves_N_a",
+   "dwarves_N_a"
+  ],
+  "P": [
+   "dwarves_P_a",
+   "dwarves_P_a"
+  ],
+  "Q": [
+   "dwarves_Q_a",
+   "dwarves_Q_a"
+  ],
+  "R": [
+   "dwarves_R_a",
+   "dwarves_R_a"
+  ]
+ },
+ "firekin": {
+  "B": [
+   "firekin_B_a",
+   "firekin_B_a"
+  ],
+  "K": [
+   "firekin_K_a",
+   "firekin_K_a"
+  ],
+  "N": [
+   "firekin_N_a",
+   "firekin_N_a"
+  ],
+  "P": [
+   "firekin_P_a",
+   "firekin_P_a"
+  ],
+  "Q": [
+   "firekin_Q_a",
+   "firekin_Q_a"
+  ],
+  "R": [
+   "firekin_R_a",
+   "firekin_R_a"
+  ]
+ },
+ "dragonkin": {
+  "B": [
+   "dragonkin_B_a",
+   "dragonkin_B_a"
+  ],
+  "K": [
+   "dragonkin_K_a",
+   "dragonkin_K_a"
+  ],
+  "N": [
+   "dragonkin_N_a",
+   "dragonkin_N_a"
+  ],
+  "P": [
+   "dragonkin_P_a",
+   "dragonkin_P_a"
+  ],
+  "Q": [
+   "dragonkin_Q_a",
+   "dragonkin_Q_a"
+  ],
+  "R": [
+   "dragonkin_R_a",
+   "dragonkin_R_a"
+  ]
+ },
+ "clockwork": {
+  "B": [
+   "clockwork_B_a",
+   "clockwork_B_a"
+  ],
+  "K": [
+   "clockwork_K_a",
+   "clockwork_K_a"
+  ],
+  "N": [
+   "clockwork_N_a",
+   "clockwork_N_a"
+  ],
+  "P": [
+   "clockwork_P_a",
+   "clockwork_P_a"
+  ],
+  "Q": [
+   "clockwork_Q_a",
+   "clockwork_Q_a"
+  ],
+  "R": [
+   "clockwork_R_a",
+   "clockwork_R_a"
+  ]
+ },
+ "merfolk": {
+  "B": [
+   "merfolk_B_a",
+   "merfolk_B_a"
+  ],
+  "K": [
+   "merfolk_K_a",
+   "merfolk_K_a"
+  ],
+  "N": [
+   "merfolk_N_a",
+   "merfolk_N_a"
+  ],
+  "P": [
+   "merfolk_P_a",
+   "merfolk_P_a"
+  ],
+  "Q": [
+   "merfolk_Q_a",
+   "merfolk_Q_a"
+  ],
+  "R": [
+   "merfolk_R_a",
+   "merfolk_R_a"
+  ]
+ },
+ "felines": {
+  "B": [
+   "felines_B_a",
+   "felines_B_a"
+  ],
+  "K": [
+   "felines_K_a",
+   "felines_K_a"
+  ],
+  "N": [
+   "felines_N_a",
+   "felines_N_a"
+  ],
+  "P": [
+   "felines_P_a",
+   "felines_P_a"
+  ],
+  "Q": [
+   "felines_Q_a",
+   "felines_Q_a"
+  ],
+  "R": [
+   "felines_R_a",
+   "felines_R_a"
+  ]
+ },
+ "frostfolk": {
+  "B": [
+   "frostfolk_B_a",
+   "frostfolk_B_a"
+  ],
+  "K": [
+   "frostfolk_K_a",
+   "frostfolk_K_a"
+  ],
+  "N": [
+   "frostfolk_N_a",
+   "frostfolk_N_a"
+  ],
+  "P": [
+   "frostfolk_P_a",
+   "frostfolk_P_a"
+  ],
+  "Q": [
+   "frostfolk_Q_a",
+   "frostfolk_Q_a"
+  ],
+  "R": [
+   "frostfolk_R_a",
+   "frostfolk_R_a"
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "boards": [
+  {
+   "id": "classic",
+   "name": "Классика",
+   "path": "assets/board/",
+   "unlock": {
+    "type": "default",
+    "text": "открыта сразу"
+   }
+  },
+  {
+   "id": "castle",
+   "name": "Замковый зал",
+   "race": "humans",
+   "path": "assets/boards/castle/",
+   "unlock": {
+    "type": "wins",
+    "total": 2,
+    "text": "2 победы над ботом"
+   }
+  },
+  {
+   "id": "steppe",
+   "name": "Степь",
+   "race": "orcs",
+   "path": "assets/boards/steppe/",
+   "unlock": {
+    "type": "wins",
+    "total": 4,
+    "text": "4 победы над ботом"
+   }
+  },
+  {
+   "id": "crypt",
+   "name": "Склеп",
+   "race": "undead",
+   "path": "assets/boards/crypt/",
+   "unlock": {
+    "type": "wins",
+    "total": 6,
+    "text": "6 побед над ботом"
+   }
+  },
+  {
+   "id": "roofs",
+   "name": "Крыши собора",
+   "race": "gargoyles",
+   "path": "assets/boards/roofs/",
+   "unlock": {
+    "type": "wins",
+    "total": 8,
+    "text": "8 побед над ботом"
+   }
+  }
+ ],
+ "contract": "как assets/board/: board.webp + board.json (поле долями) + table.webp + table_landscape.webp + preview.webp (превью 240², меню); грузить лениво. Открытие: classic сразу, остальные — total побед над ботом (save.wins) или за видео (save.boardsAd)."
+}

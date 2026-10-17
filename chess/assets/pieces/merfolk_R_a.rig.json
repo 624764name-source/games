@@ -1,0 +1,28 @@
+{
+ "id": "merfolk_R_a",
+ "side": "a",
+ "scale": 0.4168,
+ "baseA": 146.95,
+ "baseB": 28.66,
+ "height": 290.0,
+ "parts": {
+  "base": {
+   "ox": -147.3,
+   "oy": -43.16,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "merfolk_R_a_base",
+   "team": "merfolk_R_a_base_t"
+  },
+  "body": {
+   "ox": -147.65,
+   "oy": -290.7,
+   "px": 0.0,
+   "py": -17.09,
+   "frame": "merfolk_R_a_body",
+   "team": "merfolk_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "merfolk_a"
+}

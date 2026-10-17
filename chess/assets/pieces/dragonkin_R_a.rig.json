@@ -1,0 +1,28 @@
+{
+ "id": "dragonkin_R_a",
+ "side": "a",
+ "scale": 0.44643,
+ "baseA": 117.1,
+ "baseB": 18.09,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -117.73,
+   "oy": -46.75,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "dragonkin_R_a_base",
+   "team": "dragonkin_R_a_base_t"
+  },
+  "body": {
+   "ox": -105.45,
+   "oy": -280.63,
+   "px": 0.0,
+   "py": -30.34,
+   "frame": "dragonkin_R_a_body",
+   "team": "dragonkin_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "dragonkin_a"
+}

@@ -1,0 +1,44 @@
+{
+ "id": "humans_Q_a",
+ "side": "a",
+ "scale": 0.49864,
+ "baseA": 97.77,
+ "baseB": 16.41,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -98.38,
+   "oy": -32.75,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "humans_Q_a_base",
+   "team": "humans_Q_a_base_t"
+  },
+  "body": {
+   "ox": -95.93,
+   "oy": -261.33,
+   "px": 0.0,
+   "py": -17.52,
+   "frame": "humans_Q_a_body",
+   "team": "humans_Q_a_body_t"
+  },
+  "arm": {
+   "ox": 27.08,
+   "oy": -280.61,
+   "px": 33.81,
+   "py": -177.8,
+   "frame": "humans_Q_a_arm",
+   "team": "humans_Q_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  76.04,
+  -280.0
+ ],
+ "blade": [
+  73.44,
+  -252.4
+ ],
+ "atlas": "humans_a"
+}

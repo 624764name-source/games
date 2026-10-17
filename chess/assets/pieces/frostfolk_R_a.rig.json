@@ -1,0 +1,28 @@
+{
+ "id": "frostfolk_R_a",
+ "side": "a",
+ "scale": 0.48276,
+ "baseA": 111.48,
+ "baseB": 30.93,
+ "height": 290.0,
+ "parts": {
+  "base": {
+   "ox": -111.81,
+   "oy": -54.15,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "frostfolk_R_a_base",
+   "team": "frostfolk_R_a_base_t"
+  },
+  "body": {
+   "ox": -91.45,
+   "oy": -290.68,
+   "px": 0.0,
+   "py": -25.68,
+   "frame": "frostfolk_R_a_body",
+   "team": "frostfolk_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "frostfolk_a"
+}

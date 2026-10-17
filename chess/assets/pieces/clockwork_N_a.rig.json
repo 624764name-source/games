@@ -1,0 +1,51 @@
+{
+ "id": "clockwork_N_a",
+ "side": "a",
+ "scale": 0.47321,
+ "baseA": 101.54,
+ "baseB": 16.8,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -101.85,
+   "oy": -38.89,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "clockwork_N_a_base",
+   "team": "clockwork_N_a_base_t"
+  },
+  "body": {
+   "ox": -89.8,
+   "oy": -250.94,
+   "px": 0.0,
+   "py": -23.74,
+   "frame": "clockwork_N_a_body",
+   "team": "clockwork_N_a_body_t"
+  },
+  "head": {
+   "ox": 68.47,
+   "oy": -210.45,
+   "px": 74.65,
+   "py": -169.03,
+   "frame": "clockwork_N_a_head"
+  },
+  "arm": {
+   "ox": 3.25,
+   "oy": -280.31,
+   "px": 7.26,
+   "py": -202.1,
+   "frame": "clockwork_N_a_arm",
+   "team": "clockwork_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  53.01,
+  -280.0
+ ],
+ "blade": [
+  50.27,
+  -267.18
+ ],
+ "atlas": "clockwork_a"
+}

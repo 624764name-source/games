@@ -1,0 +1,28 @@
+{
+ "id": "felines_R_a",
+ "side": "a",
+ "scale": 0.48276,
+ "baseA": 120.64,
+ "baseB": 18.1,
+ "height": 290.0,
+ "parts": {
+  "base": {
+   "ox": -121.29,
+   "oy": -37.07,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "felines_R_a_base",
+   "team": "felines_R_a_base_t"
+  },
+  "body": {
+   "ox": -128.08,
+   "oy": -290.65,
+   "px": 0.0,
+   "py": -20.38,
+   "frame": "felines_R_a_body",
+   "team": "felines_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "felines_a"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "orcs_R_a",
+ "side": "a",
+ "scale": 0.43728,
+ "baseA": 135.78,
+ "baseB": 24.01,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -136.11,
+   "oy": -44.86,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "orcs_R_a_base",
+   "team": "orcs_R_a_base_t"
+  },
+  "body": {
+   "ox": -116.27,
+   "oy": -280.33,
+   "px": 0.0,
+   "py": -22.8,
+   "frame": "orcs_R_a_body",
+   "team": "orcs_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "orcs_a"
+}

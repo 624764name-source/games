@@ -1,0 +1,51 @@
+{
+ "id": "undead_N_a",
+ "side": "a",
+ "scale": 0.44037,
+ "baseA": 110.7,
+ "baseB": 18.63,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -111.03,
+   "oy": -38.85,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "undead_N_a_base",
+   "team": "undead_N_a_base_t"
+  },
+  "body": {
+   "ox": -100.85,
+   "oy": -247.44,
+   "px": 0.0,
+   "py": -21.49,
+   "frame": "undead_N_a_body",
+   "team": "undead_N_a_body_t"
+  },
+  "head": {
+   "ox": 62.74,
+   "oy": -218.86,
+   "px": 70.3,
+   "py": -181.41,
+   "frame": "undead_N_a_head"
+  },
+  "arm": {
+   "ox": -65.37,
+   "oy": -301.97,
+   "px": -21.68,
+   "py": -224.12,
+   "frame": "undead_N_a_arm",
+   "team": "undead_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  -38.43,
+  -301.64
+ ],
+ "blade": [
+  -47.65,
+  -278.99
+ ],
+ "atlas": "undead_a"
+}

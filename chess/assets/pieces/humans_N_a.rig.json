@@ -1,0 +1,51 @@
+{
+ "id": "humans_N_a",
+ "side": "a",
+ "scale": 0.51339,
+ "baseA": 94.13,
+ "baseB": 15.54,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -94.74,
+   "oy": -30.63,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "humans_N_a_base",
+   "team": "humans_N_a_base_t"
+  },
+  "body": {
+   "ox": -94.74,
+   "oy": -254.63,
+   "px": 0.0,
+   "py": -16.33,
+   "frame": "humans_N_a_body",
+   "team": "humans_N_a_body_t"
+  },
+  "head": {
+   "ox": 46.15,
+   "oy": -211.85,
+   "px": 57.61,
+   "py": -167.84,
+   "frame": "humans_N_a_head"
+  },
+  "arm": {
+   "ox": -97.18,
+   "oy": -273.89,
+   "px": -14.36,
+   "py": -201.77,
+   "frame": "humans_N_a_arm",
+   "team": "humans_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  -48.9,
+  -273.58
+ ],
+ "blade": [
+  -48.82,
+  -257.75
+ ],
+ "atlas": "humans_a"
+}

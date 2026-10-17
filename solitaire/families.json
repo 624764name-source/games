@@ -1,0 +1,22 @@
+[
+ {"id":"animals","ru":"Животные","en":"Animals","color":"#c98a3b"},
+ {"id":"plants","ru":"Растения","en":"Plants","color":"#5f9e4f"},
+ {"id":"food","ru":"Еда и напитки","en":"Food & Drink","color":"#d0603a"},
+ {"id":"home","ru":"Дом и быт","en":"Home","color":"#9b7653"},
+ {"id":"clothes","ru":"Одежда и вещи","en":"Clothes & Things","color":"#b0577f"},
+ {"id":"body","ru":"Человек","en":"People & Body","color":"#d38b74"},
+ {"id":"jobs","ru":"Профессии и работа","en":"Jobs & Work","color":"#5d7ea8"},
+ {"id":"transport","ru":"Транспорт","en":"Transport","color":"#4a8f9e"},
+ {"id":"sport","ru":"Спорт и игры","en":"Sports & Games","color":"#3f9b78"},
+ {"id":"science","ru":"Наука и техника","en":"Science & Tech","color":"#6a6fb5"},
+ {"id":"geo","ru":"География","en":"Geography","color":"#3d8a6a"},
+ {"id":"arts","ru":"Искусство","en":"Arts","color":"#a0559e"},
+ {"id":"language","ru":"Язык и слова","en":"Language","color":"#8a6a3a"},
+ {"id":"time","ru":"Время и праздники","en":"Time & Holidays","color":"#c4a03a"},
+ {"id":"school","ru":"Школа и числа","en":"School & Numbers","color":"#4f86c6"},
+ {"id":"sky","ru":"Погода и космос","en":"Weather & Space","color":"#3f6fa8"},
+ {"id":"hobby","ru":"Хобби и досуг","en":"Hobbies","color":"#c06a4a"},
+ {"id":"city","ru":"Город и здания","en":"City & Buildings","color":"#7d7d8c"},
+ {"id":"tales","ru":"Сказки и мифы","en":"Tales & Myths","color":"#8c5aa8"},
+ {"id":"wordplay","ru":"Загадки слов","en":"Word Riddles","color":"#b8863b"}
+]

@@ -1,0 +1,44 @@
+{
+ "id": "frostfolk_Q_a",
+ "side": "a",
+ "scale": 0.45833,
+ "baseA": 98.74,
+ "baseB": 22.74,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -99.08,
+   "oy": -44.44,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "frostfolk_Q_a_base",
+   "team": "frostfolk_Q_a_base_t"
+  },
+  "body": {
+   "ox": -99.08,
+   "oy": -279.84,
+   "px": 0.0,
+   "py": -23.84,
+   "frame": "frostfolk_Q_a_body",
+   "team": "frostfolk_Q_a_body_t"
+  },
+  "arm": {
+   "ox": 30.75,
+   "oy": -300.34,
+   "px": 34.85,
+   "py": -194.77,
+   "frame": "frostfolk_Q_a_arm",
+   "team": "frostfolk_Q_a_arm_t"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  89.86,
+  -299.66
+ ],
+ "blade": [
+  85.29,
+  -270.95
+ ],
+ "atlas": "frostfolk_a"
+}

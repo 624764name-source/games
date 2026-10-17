@@ -1,0 +1,51 @@
+{
+ "id": "elves_N_a",
+ "side": "a",
+ "scale": 0.49107,
+ "baseA": 98.37,
+ "baseB": 19.72,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -98.68,
+   "oy": -41.81,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "elves_N_a_base",
+   "team": "elves_N_a_base_t"
+  },
+  "body": {
+   "ox": -86.31,
+   "oy": -237.62,
+   "px": 0.0,
+   "py": -23.77,
+   "frame": "elves_N_a_body",
+   "team": "elves_N_a_body_t"
+  },
+  "head": {
+   "ox": 46.4,
+   "oy": -211.33,
+   "px": 57.23,
+   "py": -169.41,
+   "frame": "elves_N_a_head"
+  },
+  "arm": {
+   "ox": -74.55,
+   "oy": -280.31,
+   "px": -12.06,
+   "py": -198.03,
+   "frame": "elves_N_a_arm",
+   "team": "elves_N_a_arm_t"
+  }
+ },
+ "strike": "lunge",
+ "tip": [
+  -73.93,
+  -280.0
+ ],
+ "blade": [
+  -67.04,
+  -263.6
+ ],
+ "atlas": "elves_a"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "gargoyles_R_a",
+ "side": "a",
+ "scale": 0.38488,
+ "baseA": 129.91,
+ "baseB": 22.09,
+ "height": 300.0,
+ "parts": {
+  "base": {
+   "ox": -130.25,
+   "oy": -42.9,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "gargoyles_R_a_base",
+   "team": "gargoyles_R_a_base_t"
+  },
+  "body": {
+   "ox": -154.74,
+   "oy": -300.68,
+   "px": 0.0,
+   "py": -22.59,
+   "frame": "gargoyles_R_a_body",
+   "team": "gargoyles_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "gargoyles_a"
+}

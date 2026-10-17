@@ -1,0 +1,178 @@
+{
+ "note": "Слои для параллакса; координаты — в пикселях дизайна (portrait 1080×2400, landscape 2400×1080), масштаб кадра cover.",
+ "army": [
+  "ivory",
+  "crimson"
+ ],
+ "bleed": 16,
+ "layers": {
+  "portrait": {
+   "sky": {
+    "file": "portrait/sky.webp",
+    "x": -64,
+    "y": -16,
+    "displayScale": 2,
+    "depth": 0.15,
+    "kb": 28.2
+   },
+   "far": {
+    "file": "portrait/far.webp",
+    "x": -16,
+    "y": 485,
+    "displayScale": 2.0,
+    "depth": 0.3,
+    "kb": 9.9
+   },
+   "mid": {
+    "file": "portrait/mid.webp",
+    "x": -16,
+    "y": 629,
+    "displayScale": 1.0,
+    "depth": 0.6,
+    "kb": 112.6
+   },
+   "fg": {
+    "file": "portrait/fg.webp",
+    "x": -16,
+    "y": 1603,
+    "displayScale": 2.0,
+    "depth": 1.0,
+    "kb": 5.8
+   }
+  },
+  "landscape": {
+   "sky": {
+    "file": "landscape/sky.webp",
+    "x": -64,
+    "y": -16,
+    "displayScale": 2,
+    "depth": 0.15,
+    "kb": 32.1
+   },
+   "far": {
+    "file": "landscape/far.webp",
+    "x": -16,
+    "y": 159,
+    "displayScale": 2.0,
+    "depth": 0.3,
+    "kb": 8.3
+   },
+   "mid": {
+    "file": "landscape/mid.webp",
+    "x": -16,
+    "y": 363,
+    "displayScale": 1.0,
+    "depth": 0.6,
+    "kb": 152.4
+   },
+   "fg": {
+    "file": "landscape/fg.webp",
+    "x": -16,
+    "y": 715,
+    "displayScale": 2.0,
+    "depth": 1.0,
+    "kb": 5.5
+   }
+  }
+ },
+ "anchors": {
+  "portrait": [
+   {
+    "id": "elves_N_0",
+    "race": "elves",
+    "x": 343.2,
+    "y": 1445.4,
+    "cellPx": 207.1,
+    "scale": 1.6571,
+    "face": 1,
+    "depthAfter": "mid",
+    "Z": 14.0
+   },
+   {
+    "id": "orcs_K_1",
+    "race": "orcs",
+    "x": 736.8,
+    "y": 1445.4,
+    "cellPx": 207.1,
+    "scale": 1.6571,
+    "face": -1,
+    "depthAfter": "mid",
+    "Z": 14.0
+   }
+  ],
+  "landscape": [
+   {
+    "id": "elves_N_0",
+    "race": "elves",
+    "x": 1037.8,
+    "y": 1000.3,
+    "cellPx": 170.7,
+    "scale": 1.3659,
+    "face": 1,
+    "depthAfter": "mid",
+    "Z": 8.2
+   },
+   {
+    "id": "orcs_K_1",
+    "race": "orcs",
+    "x": 1362.2,
+    "y": 1000.3,
+    "cellPx": 170.7,
+    "scale": 1.3659,
+    "face": -1,
+    "depthAfter": "mid",
+    "Z": 8.2
+   }
+  ]
+ },
+ "logo": {
+  "portrait": {
+   "cx": 540,
+   "cy": 420,
+   "width": 960
+  },
+  "landscape": {
+   "cx": 1200,
+   "cy": 205,
+   "width": 820
+  }
+ },
+ "sizesKB": {
+  "logo.webp": 57.6,
+  "bolt.webp": 58.3,
+  "boot_portrait.webp": 24.7,
+  "boot_landscape.webp": 29.9,
+  "lazyTotal": 471.5,
+  "logo_en.webp": 57.5
+ },
+ "shared": {
+  "logo": {
+   "file": "logo.webp",
+   "size": [
+    1000,
+    385
+   ]
+  },
+  "bolt": {
+   "file": "bolt.webp",
+   "size": [
+    371,
+    666
+   ],
+   "displayScale": 2.5,
+   "blend": "ADD"
+  },
+  "ember": {
+   "file": "ember.webp",
+   "size": [
+    32,
+    32
+   ],
+   "blend": "ADD"
+  }
+ },
+ "horizonY": {
+  "portrait": 824,
+  "landscape": 454
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "id": "clockwork_R_a",
+ "side": "a",
+ "scale": 0.42568,
+ "baseA": 139.48,
+ "baseB": 22.25,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -139.81,
+   "oy": -48.02,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "clockwork_R_a_base",
+   "team": "clockwork_R_a_base_t"
+  },
+  "body": {
+   "ox": -79.77,
+   "oy": -280.65,
+   "px": 0.0,
+   "py": -27.51,
+   "frame": "clockwork_R_a_body",
+   "team": "clockwork_R_a_body_t"
+  }
+ },
+ "strike": "ram",
+ "atlas": "clockwork_a"
+}

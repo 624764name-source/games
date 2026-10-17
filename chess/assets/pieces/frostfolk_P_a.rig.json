@@ -1,0 +1,44 @@
+{
+ "id": "frostfolk_P_a",
+ "side": "a",
+ "scale": 0.42411,
+ "baseA": 106.31,
+ "baseB": 26.0,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -107.95,
+   "oy": -51.31,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "frostfolk_P_a_base",
+   "team": "frostfolk_P_a_base_t"
+  },
+  "body": {
+   "ox": -59.06,
+   "oy": -244.89,
+   "px": 0.0,
+   "py": -27.77,
+   "frame": "frostfolk_P_a_body",
+   "team": "frostfolk_P_a_body_t"
+  },
+  "arm": {
+   "ox": -86.95,
+   "oy": -280.33,
+   "px": -36.26,
+   "py": -175.33,
+   "frame": "frostfolk_P_a_arm",
+   "team": "frostfolk_P_a_arm_t"
+  }
+ },
+ "strike": "stab",
+ "tip": [
+  -82.19,
+  -280.0
+ ],
+ "blade": [
+  -78.87,
+  -253.47
+ ],
+ "atlas": "frostfolk_a"
+}

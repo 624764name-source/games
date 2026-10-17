@@ -1,0 +1,43 @@
+{
+ "id": "elves_R_a",
+ "side": "a",
+ "scale": 0.44643,
+ "baseA": 103.58,
+ "baseB": 19.44,
+ "height": 280.0,
+ "parts": {
+  "base": {
+   "ox": -103.89,
+   "oy": -42.63,
+   "px": 0.0,
+   "py": 0.0,
+   "frame": "elves_R_a_base",
+   "team": "elves_R_a_base_t"
+  },
+  "body": {
+   "ox": -118.37,
+   "oy": -280.63,
+   "px": 0.0,
+   "py": -24.8,
+   "frame": "elves_R_a_body",
+   "team": "elves_R_a_body_t"
+  },
+  "arm": {
+   "ox": 32.11,
+   "oy": -269.3,
+   "px": 38.72,
+   "py": -181.3,
+   "frame": "elves_R_a_arm"
+  }
+ },
+ "strike": "overhead",
+ "tip": [
+  73.35,
+  -268.98
+ ],
+ "blade": [
+  75.01,
+  -254.89
+ ],
+ "atlas": "elves_a"
+}
