@@ -2,8 +2,8 @@ const CACHE_NAME = "gift-coupon-v7";
 const APP_FILES = [
   "./",
   "./index.html",
-  "./src/main.js",
-  "./src/styles.css",
+  "./src/main.js?v=7",
+  "./src/styles.css?v=7",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
