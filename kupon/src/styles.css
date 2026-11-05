@@ -355,3 +355,109 @@ select.text-field { appearance: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
   .snow { display: none; }
 }
+
+/* ===== Стиль «Шампанское и пионы» (утв. пользователем 05.11.2026) ===== */
+:root {
+  --cream: #fbf3ec;
+  --card: #fffaf6;
+  --rose-line: #ecd2c8;
+  --wine: #a8323e;
+  --rose: #d8737c;
+  --cocoa: #4a2a2c;
+  --cocoa-soft: #7a4d4c;
+  --page: var(--cream);
+  --ink-900: #3a1f22;
+  --ink-700: #7a4d4c;
+  --berry-600: #a8323e;
+  --berry-700: #8e2833;
+  --gold-300: #e2bfa9;
+  --paper-100: #fffaf6;
+  --paper-200: #f6e8e0;
+  --shadow: 0 18px 46px rgba(120, 60, 50, 0.16);
+}
+html { background: var(--cream); }
+body {
+  color: var(--cocoa);
+  background: var(--cream);
+  font-family: Manrope, "Avenir Next", sans-serif;
+}
+h1, h2, .role-choice__title, .stub-number, .coupon-balance, .pending-card__amount,
+.history-item__amount, .empty-state strong, .coupon-list-item__title, .add-coupon-form h3, .brand {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+}
+.bg-art {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    linear-gradient(180deg, var(--cream) 0%, var(--cream) 38%, rgba(251, 243, 236, 0.55) 62%, rgba(251, 243, 236, 0) 80%),
+    url("../img/newyear.jpg") center bottom / cover no-repeat;
+}
+body[data-theme="birthday"] .bg-art, body[data-theme="march-8"] .bg-art,
+body[data-theme="valentine"] .bg-art, body[data-theme="anniversary"] .bg-art, body[data-theme="custom"] .bg-art {
+  background:
+    linear-gradient(180deg, var(--cream) 0%, var(--cream) 38%, rgba(251, 243, 236, 0.55) 62%, rgba(251, 243, 236, 0) 80%),
+    url("../img/birthday.jpg") center bottom / cover no-repeat;
+}
+.snowflake { background: #fff; box-shadow: 0 0 6px rgba(217, 164, 65, 0.6); }
+
+.gift-card, .role-card, .coupon-card, .action-panel, .dialog, .toast {
+  background: rgba(255, 250, 246, 0.94);
+  border-color: var(--rose-line);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.gift-card::before { border-color: rgba(216, 115, 124, 0.35); }
+.gift-overline, .eyebrow, .coupon-topline { color: #b0675f; letter-spacing: 0.2em; }
+.gift-card h1 { font-size: clamp(2.6rem, 11vw, 4.4rem); letter-spacing: -0.01em; }
+.gift-card h1 strong { color: var(--ink-900); font-weight: 600; }
+.gift-script {
+  margin-top: 18px;
+  font-family: "Marck Script", cursive;
+  font-size: clamp(2rem, 9vw, 2.6rem);
+  line-height: 1.05;
+  color: var(--wine);
+}
+.gift-lead { margin-top: 10px; font-family: "Cormorant Garamond", serif; font-style: italic; font-size: 1.2rem; color: var(--cocoa-soft); }
+.gift-card__stub {
+  color: var(--ink-900);
+  background: linear-gradient(135deg, #f8e3da, #f3d3c9);
+  border-top-color: rgba(168, 50, 62, 0.35);
+}
+.gift-footnote { color: var(--cocoa-soft); font-weight: 500; }
+
+.button--primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--rose), var(--wine));
+  box-shadow: 0 12px 28px rgba(168, 50, 62, 0.38);
+}
+.button--primary:hover { background: linear-gradient(135deg, #cf6670, #962b37); }
+.button--ghost { color: var(--cocoa); background: rgba(255, 250, 246, 0.85); border-color: var(--rose-line); }
+.button--ghost:hover { background: #fff; }
+.button--secondary { background: #f6e8e0; border-color: var(--rose-line); }
+.text-button { color: var(--wine); font-weight: 600; }
+.text-button:hover { color: var(--berry-700); }
+.brand { color: var(--ink-900); font-size: 1.4rem; }
+.brand .icon { color: var(--wine); }
+:focus-visible { outline-color: var(--rose); }
+
+.coupon-balance { color: var(--ink-900); letter-spacing: -0.01em; }
+.coupon-divider { background: var(--rose-line); }
+#coupon-progress, #coupon-progress::-webkit-progress-bar { background: #f3e3dc; }
+#coupon-progress::-webkit-progress-value { background: linear-gradient(90deg, #e7a4a0, var(--wine)); }
+#coupon-progress::-moz-progress-bar { background: linear-gradient(90deg, #e7a4a0, var(--wine)); }
+.coupon-summary > div { padding: 12px 14px; border-radius: 16px; background: rgba(255, 250, 246, 0.8); border: 1px solid var(--rose-line); }
+.coupon-summary span { color: var(--cocoa-soft); }
+.coupon-summary strong { color: var(--ink-900); }
+.expiry-note { color: #fff; background: linear-gradient(135deg, var(--rose), var(--wine)); border-color: transparent; }
+
+.section-heading h2 { color: var(--ink-900); }
+.section-heading > span, .history-empty { color: var(--cocoa-soft); }
+.history-section { padding: 18px; border-radius: var(--radius-lg); background: rgba(255, 250, 246, 0.9); border: 1px solid var(--rose-line); }
+.history-item { background: var(--card); border-color: var(--rose-line); color: var(--ink-900); }
+.history-item__date { color: var(--cocoa-soft); }
+.history-item__note { color: var(--cocoa); }
+.status--pending { color: #6b3b10; background: #f7deb0; }
+.how-it-works { padding: 16px 18px; border: 1px solid var(--rose-line); border-radius: var(--radius-md); background: rgba(255, 250, 246, 0.92); color: var(--cocoa); }
+.how-it-works summary { color: var(--wine); }
+.dialog::backdrop { background: rgba(74, 42, 44, 0.45); }
+.pending-card, .coupon-list-item, .amount-field, .text-field { background: #fffdfb; border-color: var(--rose-line); }

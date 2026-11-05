@@ -1,4 +1,4 @@
-const CACHE_NAME = "gift-coupon-v6";
+const CACHE_NAME = "gift-coupon-v7";
 const APP_FILES = [
   "./",
   "./index.html",

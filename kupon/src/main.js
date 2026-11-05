@@ -338,6 +338,7 @@ function render() {
     ? `Купон начнёт действовать ${shortDate(coupon.startDate)}.`
     : "Срок купона закончился. Новые заявки недоступны.";
   $("#snow").hidden = coupon.theme !== "new-year";
+  document.body.dataset.theme = coupon.theme;
 
   elements.amount.disabled = unavailable;
   elements.note.disabled = unavailable;
