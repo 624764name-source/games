@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#103b32">
+  <meta name="description" content="Праздничный семейный купон на 100 000 рублей с заявками и учётом переводов.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Мой купон">
+  <title>Купон на 100 000 ₽</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-gift" viewBox="0 0 24 24">
+      <path d="M3 10h18v11H3zM2 6h20v4H2zM12 6v15M12 6H7.5A2.5 2.5 0 1 1 10 3.5L12 6Zm0 0h4.5A2.5 2.5 0 1 0 14 3.5L12 6Z"/>
+    </symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24">
+      <path d="M12 3v12m0 0 5-5m-5 5-5-5M4 17v4h16v-4"/>
+    </symbol>
+    <symbol id="icon-share" viewBox="0 0 24 24">
+      <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <path d="m6 6 12 12M18 6 6 18"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path d="m5 12 4 4L19 6"/>
+    </symbol>
+    <symbol id="icon-snow" viewBox="0 0 24 24">
+      <path d="M12 2v20M4 6l16 12M4 18 20 6M8 4l4 3 4-3M8 20l4-3 4 3"/>
+    </symbol>
+    <symbol id="icon-birthday" viewBox="0 0 24 24">
+      <path d="M5 11h14v10H5zM3 11h18v4H3zM8 11V7m8 4V7M12 11V3m-2 2h4M5 17c2-2 3 2 5 0s3 2 5 0 3 2 4 0"/>
+    </symbol>
+    <symbol id="icon-flower" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="2"/><path d="M12 10C6 9 7 2 12 6c5-4 6 3 0 4Zm2 2c1-6 8-5 4 0 4 5-3 6-4 0Zm-2 2c6 1 5 8 0 4-5 4-6-3 0-4Zm-2-2c-1 6-8 5-4 0-4-5 3-6 4 0Z"/>
+    </symbol>
+    <symbol id="icon-heart" viewBox="0 0 24 24">
+      <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>
+    </symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24">
+      <path d="m12 2 2.8 6.2 6.7.6-5.1 4.5 1.5 6.6-5.9-3.5-5.9 3.5 1.5-6.6-5.1-4.5 6.7-.6L12 2Z"/>
+    </symbol>
+  </svg>
+
+  <div id="snow" class="snow" aria-hidden="true"></div>
+
+  <main class="site-main">
+    <section id="gift-screen" class="gift-screen screen" aria-labelledby="gift-title">
+      <div class="gift-wrap">
+        <div class="gift-card">
+          <div class="gift-card__main">
+            <div class="gift-overline">
+              <svg class="icon" aria-hidden="true"><use href="#icon-snow"/></svg>
+              <span>Новогодний подарок 2027</span>
+            </div>
+            <h1 id="gift-title">Купон<br><strong>100 000 ₽</strong></h1>
+            <p class="gift-lead">Для самой любимой.<br>На любые желания, в любое время.</p>
+            <div class="gift-facts" aria-label="Условия купона">
+              <span>С 06.11.2026 до 31.12.2026</span>
+              <span>Перевод по заявке</span>
+            </div>
+            <button id="open-gift" class="button button--primary gift-open" type="button">
+              Открыть подарок
+              <svg class="icon" aria-hidden="true"><use href="#icon-gift"/></svg>
+            </button>
+          </div>
+          <div class="gift-card__stub" aria-hidden="true">
+            <span class="stub-label">ПОДАРОЧНЫЙ КУПОН</span>
+            <span class="stub-number">100 000</span>
+            <span class="stub-currency">РУБЛЕЙ</span>
+            <span class="stub-serial">№ 31122026</span>
+          </div>
+        </div>
+        <p class="gift-footnote">Один купон. Два телефона. Приятные желания.</p>
+      </div>
+    </section>
+
+    <section id="role-screen" class="role-screen screen" aria-labelledby="role-title" hidden>
+      <div class="role-card">
+        <svg class="role-gift icon" aria-hidden="true"><use href="#icon-gift"/></svg>
+        <p class="eyebrow">Настройка этого телефона</p>
+        <h2 id="role-title">Кто будет пользоваться купоном?</h2>
+        <p class="role-copy">Выберите роль. На втором телефоне выберите другую.</p>
+        <div class="role-actions">
+          <button class="role-choice" type="button" data-role="wife">
+            <span class="role-choice__title">Я жена</span>
+            <span class="role-choice__text">Создавать заявки и получать подтверждения</span>
+          </button>
+          <button class="role-choice" type="button" data-role="husband">
+            <span class="role-choice__title">Я муж</span>
+            <span class="role-choice__text">Получать заявки и отмечать переводы</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="app-screen" class="app-screen screen" aria-label="Подарочный купон" hidden>
+      <header class="app-header">
+        <div class="brand">
+          <svg class="icon" aria-hidden="true"><use href="#icon-gift"/></svg>
+          <span>Наши купоны</span>
+        </div>
+        <div class="header-actions">
+          <button id="coupons-button" class="button button--ghost button--small" type="button">
+            <svg class="icon" aria-hidden="true"><use href="#icon-gift"/></svg>
+            Купоны
+          </button>
+          <button id="install-button" class="button button--ghost button--small" type="button">
+            <svg class="icon" aria-hidden="true"><use href="#icon-download"/></svg>
+            Установить
+          </button>
+        </div>
+      </header>
+
+      <div class="app-layout">
+        <section class="coupon-column" aria-label="Остаток купона">
+          <div id="coupon-card" class="coupon-card" data-theme="new-year">
+            <svg id="coupon-decoration" class="coupon-decoration" aria-hidden="true"><use href="#icon-snow"/></svg>
+            <div class="coupon-topline">
+              <span id="coupon-title">НОВОГОДНИЙ КУПОН</span>
+              <span id="role-badge">СЕМЕЙНЫЙ</span>
+            </div>
+            <p class="coupon-caption">Осталось</p>
+            <p id="balance" class="coupon-balance">100 000 ₽</p>
+            <div class="coupon-divider" aria-hidden="true"></div>
+            <div class="coupon-meta">
+              <span id="coupon-dates">С 06.11.2026 до 31.12.2026</span>
+              <span id="paid-total">Переведено: 0 ₽</span>
+            </div>
+            <progress id="coupon-progress" max="100000" value="0" aria-label="Использованная сумма"></progress>
+          </div>
+
+          <div class="coupon-summary">
+            <div>
+              <span>В ожидании</span>
+              <strong id="pending-total">0 ₽</strong>
+            </div>
+            <div>
+              <span>Доступно для заявки</span>
+              <strong id="available-total">100 000 ₽</strong>
+            </div>
+          </div>
+          <p id="expiry-note" class="expiry-note" hidden>Срок купона закончился. Новые заявки недоступны.</p>
+          <button id="change-role" class="text-button" type="button">Сменить роль на этом телефоне</button>
+        </section>
+
+        <section class="action-panel" aria-label="Действия с купоном">
+          <div id="wife-panel">
+            <p class="eyebrow">Новое желание</p>
+            <h2>Сколько перевести?</h2>
+            <form id="request-form" novalidate>
+              <label class="field-label" for="amount">Сумма в рублях</label>
+              <div class="amount-field">
+                <input id="amount" name="amount" type="text" inputmode="numeric" autocomplete="off" maxlength="7" placeholder="Например, 10 000" aria-describedby="amount-error">
+                <span aria-hidden="true">₽</span>
+              </div>
+              <p id="amount-error" class="field-error" role="alert"></p>
+              <div class="quick-amounts" aria-label="Быстрый выбор суммы">
+                <button type="button" data-amount="5000">5 000 ₽</button>
+                <button type="button" data-amount="10000">10 000 ₽</button>
+                <button type="button" data-amount="25000">25 000 ₽</button>
+              </div>
+              <label class="field-label" for="request-note">Комментарий <span>необязательно</span></label>
+              <input id="request-note" class="text-field" name="note" type="text" maxlength="80" placeholder="Например, на новое платье">
+              <button id="create-request" class="button button--primary button--wide" type="submit">
+                Создать заявку
+                <svg class="icon" aria-hidden="true"><use href="#icon-share"/></svg>
+              </button>
+            </form>
+            <p class="action-hint">После создания отправьте ссылку мужу через мессенджер.</p>
+          </div>
+
+          <div id="husband-panel" hidden>
+            <p class="eyebrow">Заявки жены</p>
+            <h2>Ожидают перевода</h2>
+            <div id="husband-pending" class="pending-list"></div>
+          </div>
+        </section>
+      </div>
+
+      <section class="history-section" aria-labelledby="history-title">
+        <div class="section-heading">
+          <h2 id="history-title">История купона</h2>
+          <span id="history-count">0 операций</span>
+        </div>
+        <div id="history-list" class="history-list"></div>
+      </section>
+
+      <details class="how-it-works">
+        <summary>Как пользоваться на двух телефонах</summary>
+        <ol>
+          <li>Жена создаёт заявку и отправляет ссылку мужу.</li>
+          <li>Муж открывает ссылку, переводит деньги обычным способом и нажимает «Перевёл».</li>
+          <li>Муж отправляет ссылку подтверждения жене. Она открывает её, и остаток обновляется на обоих телефонах.</li>
+        </ol>
+        <p>Телефоны не синхронизируются в фоне. Заявки и подтверждения передаются только ссылками. Приложение учитывает переводы, но не двигает деньги само.</p>
+      </details>
+    </section>
+  </main>
+
+  <dialog id="confirm-dialog" class="dialog" aria-labelledby="confirm-title">
+    <button class="dialog-close icon-button" type="button" data-close="confirm-dialog" aria-label="Закрыть">
+      <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+    <p class="eyebrow">Подтверждение</p>
+    <h2 id="confirm-title">Перевод выполнен?</h2>
+    <p id="confirm-text" class="dialog-copy"></p>
+    <div class="dialog-actions">
+      <button id="confirm-cancel" class="button button--secondary" type="button">Ещё нет</button>
+      <button id="confirm-action" class="button button--primary" type="button">Да, перевёл</button>
+    </div>
+  </dialog>
+
+  <dialog id="share-dialog" class="dialog" aria-labelledby="share-title">
+    <button class="dialog-close icon-button" type="button" data-close="share-dialog" aria-label="Закрыть">
+      <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+    <p class="eyebrow">Ссылка для второго телефона</p>
+    <h2 id="share-title">Отправить заявку</h2>
+    <p id="share-text" class="dialog-copy"></p>
+    <label class="field-label" for="share-url">Ссылка</label>
+    <textarea id="share-url" class="share-url" rows="3" readonly></textarea>
+    <div class="dialog-actions dialog-actions--stack">
+      <button id="share-link" class="button button--primary button--wide" type="button">
+        <svg class="icon" aria-hidden="true"><use href="#icon-share"/></svg>
+        Отправить через мессенджер
+      </button>
+      <button id="copy-link" class="button button--secondary button--wide" type="button">Скопировать ссылку</button>
+    </div>
+  </dialog>
+
+  <dialog id="coupons-dialog" class="dialog dialog--wide" aria-labelledby="coupons-title">
+    <button class="dialog-close icon-button" type="button" data-close="coupons-dialog" aria-label="Закрыть">
+      <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+    <p class="eyebrow">Подарки на разные праздники</p>
+    <h2 id="coupons-title">Мои купоны</h2>
+    <div id="coupons-list" class="coupons-list"></div>
+    <p id="wife-coupon-hint" class="dialog-note" hidden>Новый купон появится здесь после открытия ссылки от мужа.</p>
+    <button id="show-add-coupon" class="button button--primary button--wide add-coupon-button" type="button">Добавить праздничный купон</button>
+
+    <form id="add-coupon-form" class="add-coupon-form" novalidate hidden>
+      <h3>Новый подарок</h3>
+      <label class="field-label" for="new-coupon-template">Праздник</label>
+      <select id="new-coupon-template" class="text-field" name="template">
+        <option value="birthday">День рождения</option>
+        <option value="new-year">Новый год</option>
+        <option value="march-8">8 Марта</option>
+        <option value="valentine">День влюблённых</option>
+        <option value="anniversary">Годовщина</option>
+        <option value="custom">Свой праздник</option>
+      </select>
+      <label class="field-label" for="new-coupon-title">Название купона</label>
+      <input id="new-coupon-title" class="text-field" name="title" type="text" maxlength="40" value="На день рождения" required>
+      <label class="field-label" for="new-coupon-amount">Сумма в рублях</label>
+      <input id="new-coupon-amount" class="text-field" name="total" type="text" inputmode="numeric" maxlength="9" value="100 000" required>
+      <div class="date-fields">
+        <div>
+          <label class="field-label" for="new-coupon-start">Начало</label>
+          <input id="new-coupon-start" class="text-field" name="start" type="date" required>
+        </div>
+        <div>
+          <label class="field-label" for="new-coupon-end">Последний день</label>
+          <input id="new-coupon-end" class="text-field" name="end" type="date" required>
+        </div>
+      </div>
+      <p id="new-coupon-error" class="field-error" role="alert"></p>
+      <div class="dialog-actions">
+        <button id="cancel-add-coupon" class="button button--secondary" type="button">Отмена</button>
+        <button class="button button--primary" type="submit">Создать и отправить</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="install-dialog" class="dialog" aria-labelledby="install-title">
+    <button class="dialog-close icon-button" type="button" data-close="install-dialog" aria-label="Закрыть">
+      <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+    <p class="eyebrow">Приложение на телефоне</p>
+    <h2 id="install-title">Как установить</h2>
+    <button id="native-install" class="button button--primary button--wide native-install" type="button" hidden>Установить приложение</button>
+    <div class="install-instructions">
+      <section>
+        <h3>Android</h3>
+        <p>Откройте сайт в Chrome. В меню браузера выберите «Установить приложение» или «Добавить на главный экран».</p>
+      </section>
+      <section>
+        <h3>iPhone</h3>
+        <p>Откройте сайт в Safari. Нажмите «Поделиться», затем «На экран “Домой”».</p>
+      </section>
+    </div>
+    <p class="dialog-note">Для открытия ссылок на разных телефонах приложение сначала нужно опубликовать в интернете.</p>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
